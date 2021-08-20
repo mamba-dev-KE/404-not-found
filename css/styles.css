@@ -12,7 +12,6 @@
 
 body {
 	font-family: "Poppins", sans-serif;
-	font-size: 1.8rem;
 	height: 100vh;
 }
 
@@ -29,7 +28,7 @@ img {
 .container {
 	width: 88%;
 	max-width: 1500px;
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 
 .not__found__title {
@@ -43,7 +42,7 @@ img {
 }
 
 .not__found__subtitle {
-	font-size: 4rem;
+	font-size: 4.8rem;
 	text-align: left;
 	margin-bottom: 0.5em;
 	max-width: 40rem;
@@ -54,6 +53,7 @@ img {
 	margin-bottom: 2em;
 	max-width: 30rem;
 	word-spacing: 0.5em;
+	font-size: 1.8rem;
 }
 
 .not__found__btn {
@@ -65,21 +65,30 @@ img {
 	background-color: #333333;
 }
 
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 768px) {
 	.row {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
+		min-height: 80vh;
 	}
 
-	.column {
-		width: 50%;
+	.img__column {
+		width: 40%;
+	}
+
+	.text__column {
+		width: 60%;
 	}
 
 	.not__found__subtitle {
-		word-spacing: 0.4em;
+		font-size: 6.4rem;
+		word-spacing: 0.3em;
+		max-width: 60rem;
 	}
 
 	.not__found__info {
+		font-size: 2.4rem;
+		max-width: 40rem;
 	}
 }
