@@ -40,8 +40,8 @@
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [HTML5]
-- [CSS3]
+- HTML5
+- CSS3
 
 ## Features
 
@@ -51,6 +51,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [Resume](https://resume-website-cadele106-mamba-dev-ke.vercel.app/)
+- Website [Joseph Maramba](https://resume-website-cadele106-mamba-dev-ke.vercel.app/)
 - GitHub [@mamba-dev-KE](https://github.com/mamba-dev-KE/)
 - Twitter [@Maramba_Joseph](https://twitter.com/Maramba_Joseph)
