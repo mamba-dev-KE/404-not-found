@@ -68,6 +68,26 @@ img {
 	cursor: pointer;
 }
 
+.attribution {
+	font-size: 1.1rem;
+	width: 100%;
+	text-align: center;
+	margin-top: 8em;
+}
+
+.attribution a {
+	color: #595959;
+}
+
+.attribution a:hover {
+	color: #190eb8;
+}
+
+.attribution__designer,
+.attribution__programmer {
+	font-size: 1.2rem;	
+}
+
 @media only screen and (min-width: 768px) {
 	.row {
 		display: flex;
